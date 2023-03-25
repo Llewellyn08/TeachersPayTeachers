@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T22:10:39 IST" name="Teachers Pay Teachers" finished-at="2023-03-21T22:11:36 IST" duration-ms="56477">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T22:10:39 IST" name="Teachers Pay Teachers TEST-CASES" finished-at="2023-03-21T22:11:36 IST" duration-ms="56477">
+      <class name="com.tpt.testCases.LoginPageTestCases">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:10:39 IST" name="loadConfig" finished-at="2023-03-21T22:10:39 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:10:40 IST" name="setup" finished-at="2023-03-21T22:10:46 IST" duration-ms="6327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LOGIN_verifyLoginPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:10:46 IST" name="LOGIN_verifyLoginPage" description="Check the functionality of Login Page" data-provider="Credentials" finished-at="2023-03-21T22:10:50 IST" duration-ms="3853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verify the login functionality with a empty values]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOGIN_verifyLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:10:50 IST" name="tearDown" finished-at="2023-03-21T22:10:50 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:10:50 IST" name="setup" finished-at="2023-03-21T22:10:56 IST" duration-ms="5274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LOGIN_verifyLoginPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:10:56 IST" name="LOGIN_verifyLoginPage" description="Check the functionality of Login Page" data-provider="Credentials" finished-at="2023-03-21T22:10:59 IST" duration-ms="3724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verify the login functionality with invalid email ID]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@gmail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOGIN_verifyLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:10:59 IST" name="tearDown" finished-at="2023-03-21T22:11:00 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:00 IST" name="setup" finished-at="2023-03-21T22:11:05 IST" duration-ms="5494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LOGIN_verifyLoginPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:05 IST" name="LOGIN_verifyLoginPage" description="Check the functionality of Login Page" data-provider="Credentials" finished-at="2023-03-21T22:11:11 IST" duration-ms="6066" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verify the login functionality with username not registered in the system]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usernamewrong]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [The username/password combination doesn't match.] but found [To log in, please enter email or username, password, and let us know you're not a robot.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [The username/password combination doesn't match.] but found [To log in, please enter email or username, password, and let us know you're not a robot.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.tpt.testCases.LoginPageTestCases.LOGIN_verifyLoginPage(LoginPageTestCases.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOGIN_verifyLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:11 IST" name="tearDown" finished-at="2023-03-21T22:11:12 IST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:12 IST" name="setup" finished-at="2023-03-21T22:11:17 IST" duration-ms="5320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LOGIN_verifyLoginPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:17 IST" name="LOGIN_verifyLoginPage" description="Check the functionality of Login Page" data-provider="Credentials" finished-at="2023-03-21T22:11:24 IST" duration-ms="6286" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verify the login functionality with email ID not registered in the system]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test+wrong@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [The email/password combination doesn't match.] but found [To log in, please enter email or username, password, and let us know you're not a robot.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [The email/password combination doesn't match.] but found [To log in, please enter email or username, password, and let us know you're not a robot.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.tpt.testCases.LoginPageTestCases.LOGIN_verifyLoginPage(LoginPageTestCases.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOGIN_verifyLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:24 IST" name="tearDown" finished-at="2023-03-21T22:11:24 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:24 IST" name="setup" finished-at="2023-03-21T22:11:30 IST" duration-ms="5499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LOGIN_verifyLoginPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:30 IST" name="LOGIN_verifyLoginPage" description="Check the functionality of Login Page" data-provider="Credentials" finished-at="2023-03-21T22:11:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verify the login functionality with valid username]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing1679158517470]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOGIN_verifyLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:30 IST" name="tearDown" finished-at="2023-03-21T22:11:30 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:30 IST" name="setup" finished-at="2023-03-21T22:11:35 IST" duration-ms="5474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LOGIN_verifyLoginPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:35 IST" name="LOGIN_verifyLoginPage" description="Check the functionality of Login Page" data-provider="Credentials" finished-at="2023-03-21T22:11:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verify the login functionality with valid email ID]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testsjinnovation+automation1803@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOGIN_verifyLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:35 IST" name="tearDown" finished-at="2023-03-21T22:11:36 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.tpt.testCases.LoginPageTestCases@491b9b8]" started-at="2023-03-21T22:11:36 IST" name="afterSuite" finished-at="2023-03-21T22:11:36 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.tpt.testCases.LoginPageTestCases -->
+    </test> <!-- Teachers Pay Teachers TEST-CASES -->
+  </suite> <!-- Teachers Pay Teachers -->
+</testng-results>
