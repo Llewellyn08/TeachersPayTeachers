@@ -5,7 +5,7 @@
 	
 	<test thread-count="5" name="Teachers Pay Teachers TEST-CASES">
 		<classes>
-		<!--<class name="com.tpt.testCases.IndexPageTestCases" /> -->	
+		    <class name="com.tpt.testCases.IndexPageTestCases" />
 			<class name="com.tpt.testCases.LoginPageTestCases" />
 		</classes>	
 	</test>
